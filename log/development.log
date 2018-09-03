@@ -1,0 +1,405 @@
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:12:11 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/lbz/.rvm/gems/ruby-2.4.1/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/lbz/.rvm/gems/ruby-2.4.1/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (9.1ms)
+Completed 200 OK in 50ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:12:17 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/lbz/.rvm/gems/ruby-2.4.1/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/lbz/.rvm/gems/ruby-2.4.1/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 14ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:15:50 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 386ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: Bootstrap.
+Load paths:
+  /home/lbz/semana12/E12CP2A1/e2/app/assets/config
+  /home/lbz/semana12/E12CP2A1/e2/app/assets/images
+  /home/lbz/semana12/E12CP2A1/e2/app/assets/javascripts
+  /home/lbz/semana12/E12CP2A1/e2/app/assets/stylesheets
+  /home/lbz/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/lbz/.rvm/gems/ruby-2.4.1/gems/actioncable-5.2.1/lib/assets/compiled
+  /home/lbz/.rvm/gems/ruby-2.4.1/gems/activestorage-5.2.1/app/assets/javascripts
+  /home/lbz/.rvm/gems/ruby-2.4.1/gems/actionview-5.2.1/lib/assets/compiled
+  /home/lbz/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/lbz/semana12/E12CP2A1/e2/node_modules
+  /home/lbz/semana12/E12CP2A1/e2/vendor
+  /home/lbz/semana12/E12CP2A1/e2/vendor/stylesheets
+  /home/lbz/semana12/E12CP2A1/e2/vendor/stylesheets/bootstrap):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4563221484363328530_47423259707360'
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:16:01 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: Bootstrap.
+Load paths:
+  /home/lbz/semana12/E12CP2A1/e2/app/assets/config
+  /home/lbz/semana12/E12CP2A1/e2/app/assets/images
+  /home/lbz/semana12/E12CP2A1/e2/app/assets/javascripts
+  /home/lbz/semana12/E12CP2A1/e2/app/assets/stylesheets
+  /home/lbz/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/lbz/.rvm/gems/ruby-2.4.1/gems/actioncable-5.2.1/lib/assets/compiled
+  /home/lbz/.rvm/gems/ruby-2.4.1/gems/activestorage-5.2.1/app/assets/javascripts
+  /home/lbz/.rvm/gems/ruby-2.4.1/gems/actionview-5.2.1/lib/assets/compiled
+  /home/lbz/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/lbz/semana12/E12CP2A1/e2/node_modules
+  /home/lbz/semana12/E12CP2A1/e2/vendor
+  /home/lbz/semana12/E12CP2A1/e2/vendor/stylesheets
+  /home/lbz/semana12/E12CP2A1/e2/vendor/stylesheets/bootstrap):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4563221484363328530_70113445705200'
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:17:33 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 10009ms (Views: 9988.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:26:07 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 195ms (Views: 179.9ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/bin/rake:23
+  [1m[35m (35.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/bin/rake:23
+  [1m[35m (37.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/bin/rake:23
+Migrating to CreateProducts (20180903002815)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/bin/rake:23
+  [1m[35m (3.9ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20180903002815_create_products.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180903002815"]]
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/bin/rake:23
+  [1m[35m (19.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (5.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-09-03 00:31:59.401543"], ["updated_at", "2018-09-03 00:31:59.401543"]]
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/bin/rake:23
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/bin/rake:23
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:32:31 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/lbz/.rvm/gems/ruby-2.4.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 131ms (Views: 130.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2018-09-02 21:32:45 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/product"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/products/new" for 127.0.0.1 at 2018-09-02 21:33:36 -0300
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (76.0ms)
+  Rendered products/new.html.erb within layouts/application (79.9ms)
+Completed 200 OK in 187ms (Views: 167.5ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2018-09-02 21:33:53 -0300
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HCFkawI4h45qyeAEBQOUFMgcnsgjCu9lzycRstDaACUTbI0h2VBgHdSDRvzUT96zM15gkaHP8GqYkFIiAvM/Qg==", "product"=>{"name"=>"iphone", "price"=>"10000"}, "commit"=>"Create Product"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/products_controller.rb:30
+  [1m[36mProduct Create (1.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "iphone"], ["price", "10000"], ["created_at", "2018-09-03 00:33:53.132643"], ["updated_at", "2018-09-03 00:33:53.132643"]]
+  ↳ app/controllers/products_controller.rb:30
+  [1m[35m (20.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/products_controller.rb:30
+Redirected to http://www.localhost:3000/products/1
+Completed 302 Found in 31ms (ActiveRecord: 21.3ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2018-09-02 21:33:53 -0300
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:67
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 99ms (Views: 50.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-09-02 21:33:56 -0300
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-09-02 21:38:13 -0300
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 57ms (Views: 54.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-09-02 21:40:40 -0300
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-09-02 21:40:43 -0300
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-09-02 21:40:47 -0300
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-09-02 21:41:13 -0300
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-09-02 21:42:07 -0300
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (3.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 49ms (Views: 45.0ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-09-02 21:42:11 -0300
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navbar.html.erb (2.3ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-09-02 21:42:32 -0300
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 105ms (Views: 50.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-09-02 21:43:10 -0300
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-09-02 21:43:39 -0300
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 48.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-09-02 21:47:21 -0300
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 61ms (Views: 59.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:47:26 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navbar.html.erb (1.2ms)
+Completed 200 OK in 73ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:47:57 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (4.7ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:47:59 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:48:02 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:48:03 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:48:04 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 66ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:48:49 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_navbar.html.erb (3.4ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:50:28 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navbar.html.erb (523.6ms)
+Completed 500 Internal Server Error in 571ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pages_one_path' for #<#<Class:0x007f158a535740>:0x007f159457b358>
+Did you mean?  pages_home_path
+               pages_about_path):
+     5:   </button>
+     6:   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+     7:     <div class="navbar-nav">
+     8:       <%= link_to 'One', pages_one_path, class:'nav-item nav-link' %>
+     9:       <%= link_to 'Two', pages_two_path, class:'nav-item nav-link' %>
+    10:       <%= link_to 'Three', pages_three_path, class:'nav-item nav-link' %>
+    11:    
+  
+app/views/layouts/_navbar.html.erb:8:in `_app_views_layouts__navbar_html_erb__114805566209712852_69865294825440'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___2487070763350269328_69865329901240'
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:56:54 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navbar.html.erb (0.7ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 21:58:56 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.8ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
